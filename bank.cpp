@@ -62,6 +62,7 @@ int main()
     cout << "***Banking System***" << endl;
     do
     {
+        // All functionalities
         cout << "\n\tSelect one option below ";
         cout << "\n\t1 Open an Account";
         cout << "\n\t2 Balance Enquiry";
@@ -72,6 +73,8 @@ int main()
         cout << "\n\t7 Quit";
         cout << "\nEnter your choice: ";
         cin >> choice;
+
+        // Banking System Function switch cases
         switch (choice)
         {
         case 1:
